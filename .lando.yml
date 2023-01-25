@@ -1,0 +1,4 @@
+name: the-clam
+recipe: drupal10
+config:
+  webroot: web

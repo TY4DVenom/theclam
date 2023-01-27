@@ -1,0 +1,22 @@
+name: clamtheme
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - clamtheme/base
+  - clamtheme/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - clamtheme/user
+  core/drupal.dropbutton:
+    - clamtheme/dropbutton
+  core/drupal.dialog:
+    - clamtheme/dialog
+  file/drupal.file:
+    - clamtheme/file
+  core/drupal.progress:
+    - clamtheme/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.2'
